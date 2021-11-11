@@ -1,0 +1,332 @@
+/*styles for index.html*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    cursor: text;
+}
+.top-image1 {
+    border-radius: 50%;
+    height: 120px;
+    margin: 5px;
+        
+}
+.top-image2{
+    border-radius: 50%;
+    height: 120px;
+    margin: 5px;
+    margin-left: 190px;
+    ;
+}
+.top-image3{
+    border-radius: 50%;
+    height: 120px;
+    margin: 5px;
+    margin-left: 220px;
+    
+}
+marquee{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 100px;
+    opacity: 70%;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1470334165954-365e14d84faa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
+    background-size: cover;
+}
+div.menu{
+    background-color: rgb(255, 255, 255);
+    color: rgb(27, 15, 15);
+    width: 100%;
+    font-size: 25px;
+    height: 30px;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    z-index: +1;
+    
+} 
+
+div.menu li{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+   
+
+} 
+div.menu li a{
+    text-decoration: none;
+    color: brown;
+
+}
+div.menu li a:hover{
+    color: black;
+    
+}
+.fas{
+    color: rgb(85, 189, 85);
+}
+.contact{
+    float: right;
+    margin-top: -16px;
+    margin-right: 40px;
+    font-family: 'Architects Daughter', cursive;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+    text-decoration: underline solid;text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    text-decoration: underline;text-transform: capitalize;
+}
+div.menu a:hover{
+    color: rgb(8, 8, 8);
+    background-color:white;
+}
+.fas:hover{
+    color: black;
+}
+.adventure{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.adventure p{
+    font-size: 20px;
+}
+hr{
+    margin-top: 20px;
+}
+.bird{
+    display: flex;
+    margin: 50px 200px 20px 200px;
+    background-color: rgb(194, 194, 216);
+    opacity: 80%;
+         
+}
+.bird img{
+    width: 400px; 
+    height: 400px;
+    display: inline;
+    float: left;
+    padding: 40px;
+    padding-bottom: 10px;
+
+}
+.bird img:hover{
+   color: khaki;
+   background-color: white;
+   transition: 3s;
+   transform: rotate(10deg);
+}
+.bird h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bird a{ 
+    font: italic;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/*styles for about.html*/
+
+
+.about-bird{
+    display: flex;
+    margin: 20px 200px 20px 200px;
+    opacity: 80%;
+    padding: 15px;
+    position: relative;
+    margin-left: 50px;
+       
+}
+.about-bird p img{
+    width: 400px; 
+    height: 400px;
+    display: inline;
+    float: right;
+    padding: 40px;
+    padding-bottom: 20px;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    text-decoration: underline;text-transform: capitalize;
+    
+}
+.about-bird p {
+    width: 500px;
+    height: 800px;
+    overflow: scroll;
+    border-style: solid;
+    border-color: green;
+    font-size: 20px;
+    padding: 15px;
+}
+.about-bird1{
+    padding: 15px;
+
+/*styles for comparisons.html*/
+
+}
+ div marquee{
+    margin-top: 100px;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+
+}
+.comparison{
+    cursor: progress;
+}
+
+/*styles for examples.html*/
+
+.container img{
+   height: 750px;
+   width: 95%;
+   padding: 47px;
+   position: relative;
+
+
+}
+.container1 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px; 
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 90px;
+    margin-top: 30px;
+    
+    
+}
+.container1:hover {
+    background-color: white;
+    border: solid;border-color: lightgreen;
+    width: 92%;
+    font-size: 27px;
+       
+}
+.container3 {
+    position: absolute;
+    top: 168%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px; 
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 90px;
+    margin-top: 30px;
+}
+.container2 img{
+    height: 680px;
+    width: 95%;
+    padding: 50px;
+    position: relative;
+}
+.container3:hover {
+    background-color: rgb(236, 245, 236);
+    border: solid;border-color: green;
+    width: 92%;
+    font-size: 27px;
+}
+.container5 {
+    position: absolute;
+    top: 248%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 18px; 
+    padding: 20px;
+    padding-top: 15px;
+    border-radius: 90px;
+    margin-top: 30px;
+}
+.container4 img{
+    height: 681px;
+    width: 95%;
+    padding: 47px;
+    position: relative;
+}
+.container5:hover {
+    background-color: rgb(236, 245, 236);
+    border: solid;border-color: green;
+    width: 92%;
+    font-size: 27px;
+}
+
+/*styles for contact.html*/
+
+
+.form {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    
+    
+}
+input{
+    height: 45px;
+    width: 35%;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+}
+
+#comment-label{
+    display: block;
+    margin: 10px;
+}
+.submit{
+    width: 10%;
+    background-color: rgb(35, 83, 35);
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+textarea{
+    font-size: 22px;
+}
+footer{
+    text-align: center;
+    background-size: cover;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+footer a{
+    padding: 15px;
+    text-decoration: none;
+    
+}
+footer a:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
